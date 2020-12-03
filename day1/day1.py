@@ -15,7 +15,6 @@ def threeSum(sum, numbers):
                 print("part two: " + str(num1 * num2 * (current_sum - num2)))
                 return True
             s.add(num2)
-    print("No threesum exists for number: " + str(sum))
     return False
 
 if __name__ == '__main__':
